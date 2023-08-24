@@ -1,0 +1,4 @@
+icmp.c:77:1:icmp_input	18
+icmp.c:261:1:icmp_dest_unreach	1
+icmp.c:275:1:icmp_time_exceeded	1
+icmp.c:291:1:icmp_send_response	2

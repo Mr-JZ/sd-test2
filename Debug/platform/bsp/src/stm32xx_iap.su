@@ -1,0 +1,10 @@
+../platform/bsp/src/stm32xx_iap.c:78:13:iapInit	4	static
+../platform/bsp/src/stm32xx_iap.c:86:13:unlockFlash	8	static
+../platform/bsp/src/stm32xx_iap.c:91:13:lockFlash	8	static
+../platform/bsp/src/stm32xx_iap.c:97:17:getPageFromAddress	24	static
+../platform/bsp/src/stm32xx_iap.c:114:15:getBankFromAddress	24	static
+../platform/bsp/src/stm32xx_iap.c:132:21:checkParams	48	static
+../platform/bsp/src/stm32xx_iap.c:174:14:iap_write2Flash	56	static
+../platform/bsp/src/stm32xx_iap.c:227:14:iap_eraseFlash	48	static
+../platform/bsp/src/stm32xx_iap.c:261:10:iap_getSegmentStartAddress	24	static
+../platform/bsp/src/stm32xx_iap.c:277:10:iap_getSegmentSize	24	static

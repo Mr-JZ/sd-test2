@@ -1,0 +1,24 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+i2cdevice.h:48:13:Platform::BSP::I2CDevice::~I2CDevice()	1
+i2cdevice.h:48:13:virtual Platform::BSP::I2CDevice::~I2CDevice()	1
+MonoChromeDisplay.h:61:7:Platform::BSP::MonoChromeDisplay<Platform::BSP::I2CDevice>::~MonoChromeDisplay()	1
+MonoChromeDisplay.h:61:7:virtual Platform::BSP::MonoChromeDisplay<Platform::BSP::I2CDevice>::~MonoChromeDisplay()	1
+ssd1306.cpp:117:1:Platform::BSP::SSD1306::SSD1306(I2C_HandleTypeDef*)	1
+ssd1306.cpp:119:1:Platform::BSP::SSD1306::~SSD1306()	4
+ssd1306.cpp:119:1:virtual Platform::BSP::SSD1306::~SSD1306()	1
+ssd1306.cpp:125:6:void Platform::BSP::SSD1306::init() const	1
+ssd1306.cpp:169:6:void Platform::BSP::SSD1306::showDemoPicture()	1
+ssd1306.cpp:179:22:const uint8_t* const Platform::BSP::SSD1306::getLogo() const	1
+ssd1306.cpp:189:6:virtual void Platform::BSP::SSD1306::on() const	1
+ssd1306.cpp:193:6:virtual void Platform::BSP::SSD1306::off() const	1
+ssd1306.cpp:197:6:virtual bool Platform::BSP::SSD1306::cmd(uint8_t*, uint32_t&) const	1
+ssd1306.cpp:202:6:virtual bool Platform::BSP::SSD1306::data(uint8_t*, uint32_t&) const	1
+ssd1306.cpp:210:6:virtual bool Platform::BSP::SSD1306::cmd(uint8_t) const	1
+ssd1306.cpp:219:6:virtual bool Platform::BSP::SSD1306::data(uint8_t) const	1
+ssd1306.cpp:226:6:virtual bool Platform::BSP::SSD1306::initialize(uint32_t, uint32_t, uint8_t, uint8_t*)	6
+ssd1306.cpp:264:6:virtual bool Platform::BSP::SSD1306::flush() const	2
+MonoChromeDisplay.h:91:5:Platform::BSP::MonoChromeDisplay<U>::MonoChromeDisplay(I2C_HandleTypeDef*, uint8_t) [with U = Platform::BSP::I2CDevice]	1
+MonoChromeDisplay.h:332:6:void Platform::BSP::MonoChromeDisplay<U>::clrscr(uint8_t) [with U = Platform::BSP::I2CDevice]	1
+MonoChromeDisplay.h:541:6:void Platform::BSP::MonoChromeDisplay<U>::bitmap(const uint8_t*, uint32_t, uint32_t, Platform::BSP::MonoChromeDisplay<U>::PixelStorage, uint8_t, uint8_t) [with U = Platform::BSP::I2CDevice]	14
+stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = long unsigned int]	2
+MonoChromeDisplay.h:343:6:void Platform::BSP::MonoChromeDisplay<U>::pixel(uint32_t, uint32_t, bool) const [with U = Platform::BSP::I2CDevice]	2

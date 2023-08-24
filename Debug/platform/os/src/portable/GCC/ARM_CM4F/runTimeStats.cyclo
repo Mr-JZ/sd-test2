@@ -1,0 +1,2 @@
+runTimeStats.c:36:6:vConfigureTimerForRunTimeStats	3
+runTimeStats.c:52:10:vGetRuntimeCounter	3

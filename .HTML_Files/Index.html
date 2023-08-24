@@ -1,0 +1,107 @@
+<!DOCTYPE html 5>
+<html>
+<head>
+    <title>Webserver</title>
+    <!-- Link to CanvasJS library -->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        html, body {
+            height: 100%;
+        }
+        .card {
+            display: flex;
+            height: 90%;
+            width: 90%;
+            left: 5%;
+            top: 5%;
+            border-radius:10px;
+            background: lightgrey;
+        }
+        .card-body {
+            position:relative;
+            margin:5%;
+        }
+        .card-title{
+            text-align: center;
+            font-weight:bold;
+            font-size:50px;
+        }
+        .card-text{
+            margin-top:30px;
+            font-size:30px
+        }
+        .btn.btn-success{
+            background: lightgreen;
+            position: center;
+            margin-top: 5%;
+            margin-left: 45%;
+        }
+    </style>
+</head>
+<body>
+    <div class="card" >
+  <div class="card-body" id= "container">
+    <h5 class="card-title">Nucleo 64 Webserver</h5>
+    <p class="card-text">In diesem Projekt wird das im Praktikum verwendete Board Ethernetfähig gemacht. Die Sensordaten des Beschleunigunssensors
+    werden gespeichert und persistiert. Sie können auf dieser Website abgerufen werden.</p>
+    <button type="button" class="btn btn-success" onclick="showData()">Show Data</button>
+  </div>
+</div>
+<script>
+        // Platzhalter-Daten (leer)
+        const dataFromServer = [];
+        // AJAX-Anfrage zum Abrufen der Daten vom Server
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "your_server_url_here", true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                dataFromServer = JSON.parse(xhr.responseText); // Daten aktualisieren
+                 // Diagramm rendern
+                showData(dataFromServer);
+            }
+            
+        };
+        xhr.send();
+
+        function showData(data) {
+            const gridContainer = document.getElementById("container");
+            gridContainer.innerHTML = ""; // Vorhandenes Grid löschen
+            var rowDiv = document.createElement("div");
+            rowDiv.className = "row md-3";
+            //Header X-Value
+            var colDiv = document.createElement("div");
+            colDiv.className = "col-sm";
+            colDiv.innerText = `X Value`;
+            rowDiv.appendChild(colDiv);
+            //Header Y-Value
+            colDiv = document.createElement("div");
+            colDiv.className = "col-sm";
+            colDiv.innerText = `Y Value`;
+            rowDiv.appendChild(colDiv);
+            //Header Z-Valiue
+            colDiv = document.createElement("div");
+            colDiv.className = "col-sm";
+            colDiv.innerText = `Z Value`;
+            rowDiv.appendChild(colDiv);
+            //Header setzen
+            gridContainer.appendChild(rowDiv);
+            //Dummy Data
+            for (let i = 0; i < 5; i++) {
+                rowDiv = document.createElement("div");
+                rowDiv.className = "row md-3";
+
+                for (let j = 0; j < 3; j++) { // 3 Spalten pro Zeile
+                    colDiv = document.createElement("div");
+                    colDiv.className = "col-sm";
+                    colDiv.innerText = `Row ${i + 1}, Column ${j + 1}`;
+
+                    rowDiv.appendChild(colDiv);
+                }
+
+                gridContainer.appendChild(rowDiv);
+            }
+        }
+    </script>
+</body>
+</html>

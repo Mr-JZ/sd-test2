@@ -1,0 +1,19 @@
+sspdevice.h:64:13:Platform::BSP::SSPDevice::~SSPDevice()	1
+sspdevice.h:64:13:virtual Platform::BSP::SSPDevice::~SSPDevice()	1
+lis3dhh.cpp:40:1:Platform::BSP::LIS3DHH::LIS3DHH(SPI_HandleTypeDef*, Platform::BSP::PortPin)	1
+lis3dhh.cpp:54:6:bool Platform::BSP::LIS3DHH::reset() const	1
+lis3dhh.cpp:62:6:bool Platform::BSP::LIS3DHH::control(Platform::BSP::LIS3DHH::Mode, Platform::BSP::LIS3DHH::GRange) const	5
+lis3dhh.cpp:125:6:bool Platform::BSP::LIS3DHH::setTiming(Platform::BSP::LIS3DHH::Timing) const	2
+lis3dhh.cpp:144:9:uint8_t Platform::BSP::LIS3DHH::status() const	2
+lis3dhh.cpp:150:6:bool Platform::BSP::LIS3DHH::raw(int16_t&, int16_t&, int16_t&) const	2
+lis3dhh.cpp:172:6:bool Platform::BSP::LIS3DHH::getXacc(int16_t&) const	2
+lis3dhh.cpp:182:6:bool Platform::BSP::LIS3DHH::getYacc(int16_t&) const	2
+lis3dhh.cpp:192:6:bool Platform::BSP::LIS3DHH::getZacc(int16_t&) const	2
+lis3dhh.cpp:255:6:void Platform::BSP::LIS3DHH::openTemp() const	1
+lis3dhh.cpp:267:6:void Platform::BSP::LIS3DHH::closeTemp() const	1
+lis3dhh.cpp:278:9:int16_t Platform::BSP::LIS3DHH::getTemperature() const	1
+lis3dhh.cpp:219:6:bool Platform::BSP::LIS3DHH::ctrl(T, uint8_t&) const [with T = Platform::BSP::LIS3DHH::Register]	2
+lis3dhh.cpp:206:6:bool Platform::BSP::LIS3DHH::cmd(T, uint8_t) const [with T = Platform::BSP::LIS3DHH::Register]	1
+lis3dhh.cpp:236:6:bool Platform::BSP::LIS3DHH::ctrl(T, uint16_t&) const [with T = Platform::BSP::LIS3DHH::Register]	2
+lis3dhh.h:18:7:Platform::BSP::LIS3DHH::~LIS3DHH()	1
+lis3dhh.h:18:7:virtual Platform::BSP::LIS3DHH::~LIS3DHH()	1

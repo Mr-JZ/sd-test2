@@ -1,0 +1,34 @@
+PostOffice.h:176:8:RTOS::PostOffice::MboxData_t::MboxData_t(osMailQId, size_t)	1
+PostOffice.h:185:4:RTOS::PostOffice::~PostOffice()	1
+TaskBase.h:61:16:void* RTOS::Task::getTaskHandle() const	1
+TaskBase.h:67:18:const char* RTOS::Task::getTaskName() const	1
+PostOffice.cpp:29:1:RTOS::PostOffice::PostOffice()	2
+PostOffice.cpp:54:22:void __tcf_0()	1
+PostOffice.cpp:52:13:static RTOS::PostOffice& RTOS::PostOffice::getInstance()	3
+PostOffice.cpp:60:6:bool RTOS::PostOffice::registerMailBox(const RTOS::Task&, osMailQId, size_t)	3
+PostOffice.cpp:85:6:bool RTOS::PostOffice::sendMail(osThreadId, osThreadId, void*, RTOS::mailNumber_e, RTOS::PostOffice::mailType_e) const	17
+PostOffice.cpp:166:6:bool RTOS::PostOffice::freeMail(osThreadId, RTOS::PostOffice::mailStruct_t*, bool) const	11
+PostOffice.cpp:210:6:bool RTOS::PostOffice::registerMessageBox(const RTOS::Task&, osMessageQId)	3
+PostOffice.cpp:234:6:bool RTOS::PostOffice::sendMessage(osThreadId, uint32_t) const	5
+Embmap.h:180:1:RTOS::Embmap<T, U>::~Embmap() [with T = void*; U = RTOS::PostOffice::MboxData_t]	2
+Embmap.h:180:1:RTOS::Embmap<T, U>::~Embmap() [with T = void*; U = os_messageQ_cb*]	2
+Embmap.h:165:1:RTOS::Embmap<T, U>::Embmap(size_t) [with T = void*; U = RTOS::PostOffice::MboxData_t]	5
+Embmap.h:165:1:RTOS::Embmap<T, U>::Embmap(size_t) [with T = void*; U = os_messageQ_cb*]	5
+Embmap.h:186:4:U& RTOS::Embmap<T, U>::operator[](const T&) [with T = void*; U = RTOS::PostOffice::MboxData_t]	3
+Embmap.h:201:8:size_t RTOS::Embmap<T, U>::erase(const T&) [with T = void*; U = RTOS::PostOffice::MboxData_t]	4
+Embmap.h:223:22:const RTOS::EmbPair<T, U>* RTOS::Embmap<T, U>::find(const T&) const [with T = void*; U = RTOS::PostOffice::MboxData_t]	4
+Embmap.h:102:20:RTOS::EmbPair<T, U>* RTOS::Embmap<T, U>::end() const [with T = void*; U = RTOS::PostOffice::MboxData_t]	1
+Embmap.h:186:4:U& RTOS::Embmap<T, U>::operator[](const T&) [with T = void*; U = os_messageQ_cb*]	3
+Embmap.h:201:8:size_t RTOS::Embmap<T, U>::erase(const T&) [with T = void*; U = os_messageQ_cb*]	4
+Embmap.h:223:22:const RTOS::EmbPair<T, U>* RTOS::Embmap<T, U>::find(const T&) const [with T = void*; U = os_messageQ_cb*]	4
+Embmap.h:102:20:RTOS::EmbPair<T, U>* RTOS::Embmap<T, U>::end() const [with T = void*; U = os_messageQ_cb*]	1
+Embmap.h:66:3:RTOS::EmbPair<T, U>::EmbPair() [with T = void*; U = RTOS::PostOffice::MboxData_t]	1
+Embmap.h:66:3:RTOS::EmbPair<T, U>::EmbPair() [with T = void*; U = os_messageQ_cb*]	1
+Embmap.h:238:16:RTOS::EmbPair<T, U>* RTOS::Embmap<T, U>::find(const T&) [with T = void*; U = RTOS::PostOffice::MboxData_t]	1
+Embmap.h:249:31:RTOS::EmbPair<RTOS::EmbPair<T, U>*, bool> RTOS::Embmap<T, U>::insert(const RTOS::EmbPair<T, U>&) [with T = void*; U = RTOS::PostOffice::MboxData_t]	3
+Embmap.h:62:3:RTOS::EmbPair<T, U>::EmbPair(T, U) [with T = void*; U = RTOS::PostOffice::MboxData_t]	1
+Embmap.h:238:16:RTOS::EmbPair<T, U>* RTOS::Embmap<T, U>::find(const T&) [with T = void*; U = os_messageQ_cb*]	1
+Embmap.h:249:31:RTOS::EmbPair<RTOS::EmbPair<T, U>*, bool> RTOS::Embmap<T, U>::insert(const RTOS::EmbPair<T, U>&) [with T = void*; U = os_messageQ_cb*]	3
+Embmap.h:62:3:RTOS::EmbPair<T, U>::EmbPair(T, U) [with T = void*; U = os_messageQ_cb*]	1
+Embmap.h:62:3:RTOS::EmbPair<T, U>::EmbPair(T, U) [with T = RTOS::EmbPair<void*, RTOS::PostOffice::MboxData_t>*; U = bool]	1
+Embmap.h:62:3:RTOS::EmbPair<T, U>::EmbPair(T, U) [with T = RTOS::EmbPair<void*, os_messageQ_cb*>*; U = bool]	1

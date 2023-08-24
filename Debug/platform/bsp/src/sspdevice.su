@@ -1,0 +1,17 @@
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/portpin.h:46:14:Platform::BSP::Pin::Pin(Platform::BSP::Pin::BitMask)	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/portpin.h:89:8:Platform::BSP::Port::Port(Platform::BSP::Port::Select)	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/digitalinout.h:27:11:Platform::BSP::DigitalBase::DigitalBase(const PortPin&)	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/digitalinout.h:44:11:Platform::BSP::DigitalOut::DigitalOut(const PortPin&)	16	static
+../platform/bsp/src/sspdevice.cpp:28:1:Platform::BSP::SSPDevice::SSPDevice(SPI_HandleTypeDef*, Platform::BSP::PortPin)	24	static
+../platform/bsp/src/sspdevice.cpp:31:1:Platform::BSP::SSPDevice::SSPDevice(SPI_HandleTypeDef*, uint8_t, uint8_t)	48	static
+../platform/bsp/src/sspdevice.cpp:37:6:bool Platform::BSP::SSPDevice::read(uint8_t*, uint32_t&) const	32	static
+../platform/bsp/src/sspdevice.cpp:62:6:bool Platform::BSP::SSPDevice::write(uint8_t*, uint32_t&) const	32	static
+../platform/bsp/src/sspdevice.cpp:85:6:bool Platform::BSP::SSPDevice::write(uint8_t) const	24	static
+../platform/bsp/src/sspdevice.cpp:90:6:bool Platform::BSP::SSPDevice::assignLockFct(Platform::BSP::LockFctType, Platform::BSP::LockFctType)	24	static
+../platform/bsp/src/sspdevice.cpp:97:6:void Platform::BSP::SSPDevice::acquire() const	16	static
+../platform/bsp/src/sspdevice.cpp:103:6:void Platform::BSP::SSPDevice::release() const	16	static
+c:\st\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\bits\stl_pair.h:361:21:constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&) [with _U1 = Platform::BSP::Port::Select; _U2 = Platform::BSP::Pin::BitMask; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> = false; _T1 = Platform::BSP::Port; _T2 = Platform::BSP::Pin]	32	static
+c:\st\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\bits\move.h:76:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = Platform::BSP::Port::Select]	16	static
+c:\st\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\bits\move.h:76:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = Platform::BSP::Pin::BitMask]	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/sspdevice.h:64:13:Platform::BSP::SSPDevice::~SSPDevice()	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/sspdevice.h:64:13:virtual Platform::BSP::SSPDevice::~SSPDevice()	16	static

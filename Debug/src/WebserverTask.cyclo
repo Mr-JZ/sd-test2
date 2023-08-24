@@ -1,0 +1,11 @@
+portpin.h:46:14:Platform::BSP::Pin::Pin(Platform::BSP::Pin::BitMask)	1
+portpin.h:89:8:Platform::BSP::Port::Port(Platform::BSP::Port::Select)	9
+stl_pair.h:361:21:constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&) [with _U1 = Platform::BSP::Port::Select; _U2 = Platform::BSP::Pin::BitMask; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> = false; _T1 = Platform::BSP::Port; _T2 = Platform::BSP::Pin]	1
+WebserverTask.cpp:25:1:WebserverTask::WebserverTask(const char*, uint16_t, osPriority, bool)	1
+WebserverTask.cpp:33:6:virtual void WebserverTask::m_task()	2
+move.h:76:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = Platform::BSP::Port::Select]	1
+move.h:76:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = Platform::BSP::Pin::BitMask]	1
+WebserverTask.h:10:7:WebserverTask::~WebserverTask()	1
+WebserverTask.h:10:7:virtual WebserverTask::~WebserverTask()	1
+WebserverTask.cpp:46:1:void __static_initialization_and_destruction_0(int, int)	52
+WebserverTask.cpp:46:1:cpp)	1

@@ -1,0 +1,4 @@
+retarget.c:21:1:__io_putchar	1
+retarget.c:27:1:__io_getchar	1
+retarget.c:37:5:_write	1
+retarget.c:45:5:_read	1

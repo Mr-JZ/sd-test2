@@ -1,0 +1,23 @@
+OneWire.cpp:15:6:void OWInit(OWire*, GPIO_TypeDef*, uint16_t)	3
+OneWire.cpp:135:6:void OWInput(OWire*)	1
+OneWire.cpp:141:6:void OWOutput(OWire*)	1
+OneWire.cpp:149:9:uint8_t OWReadPin(OWire*)	2
+OneWire.cpp:154:6:void OWWriteHigh(OWire*)	1
+OneWire.cpp:159:6:void OWWriteLow(OWire*)	1
+OneWire.cpp:164:13:void OWNoInterrupts()	1
+OneWire.cpp:169:13:void OWInterrupts()	1
+OneWire.cpp:174:9:uint8_t OWReset(OWire*)	3
+OneWire.cpp:204:6:void OWWrite_bit(OWire*, uint8_t)	2
+OneWire.cpp:228:9:uint8_t OWRead_bit(OWire*)	1
+OneWire.cpp:244:6:void OWWrite(OWire*, uint8_t)	3
+OneWire.cpp:259:6:void OWWrite_bytes(OWire*, const uint8_t*, uint16_t)	2
+OneWire.cpp:272:9:uint8_t OWRead(OWire*)	3
+OneWire.cpp:285:6:void OWRead_bytes(OWire*, uint8_t*, uint16_t)	2
+OneWire.cpp:292:6:void OWSelect(OWire*, uint8_t*)	2
+OneWire.cpp:302:6:void OWSkip(OWire*)	1
+OneWire.cpp:307:6:void OWDepower(OWire*)	1
+OneWire.cpp:316:6:void OWReset_search(OWire*)	2
+OneWire.cpp:331:9:uint8_t OWSearch(OWire*, uint8_t*)	17
+OneWire.cpp:486:9:uint8_t OWCrc8(uint8_t*, uint8_t)	2
+OneWire.cpp:519:9:uint8_t OWCheck_crc16(uint8_t*, uint16_t, uint8_t*)	3
+OneWire.cpp:525:10:uint16_t OWCrc16(uint8_t*, uint16_t)	3

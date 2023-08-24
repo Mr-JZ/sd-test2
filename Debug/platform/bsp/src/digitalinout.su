@@ -1,0 +1,16 @@
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/portpin.h:52:5:Platform::BSP::Pin::operator uint16_t() const	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/portpin.h:82:18:GPIO_TypeDef* Platform::BSP::Port::get() const	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/digitalinout.h:31:14:const Platform::BSP::Port& Platform::BSP::DigitalBase::port() const	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/digitalinout.h:32:13:const Platform::BSP::Pin& Platform::BSP::DigitalBase::pin() const	16	static
+../platform/bsp/src/digitalinout.cpp:10:6:void Platform::BSP::DigitalOut::set() const	24	static
+../platform/bsp/src/digitalinout.cpp:16:6:void Platform::BSP::DigitalOut::clear() const	24	static
+../platform/bsp/src/digitalinout.cpp:22:6:bool Platform::BSP::DigitalIn::get() const	24	static
+../platform/bsp/src/digitalinout.cpp:30:6:bool Platform::BSP::DigitalInterrupt::onInterrupt(const InterruptHandler&, Platform::BSP::DigitalInterrupt::EdgeType) const	24	static
+../platform/bsp/src/digitalinout.cpp:39:6:bool Platform::BSP::DigitalInterrupt::enableInterrupt(Platform::BSP::DigitalInterrupt::EdgeType) const	16	static
+../platform/bsp/src/digitalinout.cpp:45:6:bool Platform::BSP::DigitalInterrupt::disableInterrupt() const	16	static
+../platform/bsp/src/digitalinout.cpp:51:6:bool Platform::BSP::DigitalInterrupt::clearPendingInterrupt() const	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/interrupt.h:44:13:Platform::BSP::InterruptManager::~InterruptManager()	16	static
+C:/Users/Jan/gitlab/embedded/sd-jan-2/platform/bsp/inc/interrupt.h:44:13:virtual Platform::BSP::InterruptManager::~InterruptManager()	16	static
+../platform/bsp/src/digitalinout.cpp:58:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../platform/bsp/src/digitalinout.cpp:58:1:cpp)	8	static
+../platform/bsp/src/digitalinout.cpp:58:1:cpp)	8	static

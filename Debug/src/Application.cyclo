@@ -1,0 +1,15 @@
+portpin.h:46:14:Platform::BSP::Pin::Pin(Platform::BSP::Pin::BitMask)	1
+portpin.h:89:8:Platform::BSP::Port::Port(Platform::BSP::Port::Select)	9
+stl_pair.h:361:21:constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&) [with _U1 = Platform::BSP::Port::Select; _U2 = Platform::BSP::Pin::BitMask; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> = false; _T1 = Platform::BSP::Port; _T2 = Platform::BSP::Pin]	1
+new:174:33:void* operator new(std::size_t, void*)	1
+Application.cpp:37:6:void cs_sel()	1
+Application.cpp:41:6:void cs_desel()	1
+Application.cpp:45:9:uint8_t spi_rb()	1
+Application.cpp:51:6:void spi_wb(uint8_t)	1
+Application.cpp:57:1:Application::Application()	1
+Application.cpp:93:10:uint32_t HAL_GetTick()	1
+Application.cpp:102:17:void startApplication()	1
+move.h:76:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = Platform::BSP::Port::Select]	1
+move.h:76:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = Platform::BSP::Pin::BitMask]	1
+Application.cpp:110:1:void __static_initialization_and_destruction_0(int, int)	52
+Application.cpp:110:1:cpp)	1

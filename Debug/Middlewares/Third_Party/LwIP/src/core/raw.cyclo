@@ -1,0 +1,8 @@
+raw.c:76:1:raw_input	10
+raw.c:142:1:raw_bind	2
+raw.c:162:1:raw_connect	2
+raw.c:183:1:raw_recv	1
+raw.c:203:1:raw_sendto	10
+raw.c:286:1:raw_send	1
+raw.c:300:1:raw_remove	5
+raw.c:331:1:raw_new	2

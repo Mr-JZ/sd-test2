@@ -1,0 +1,2 @@
+mallocReentrant.c:42:6:__malloc_lock	1
+mallocReentrant.c:48:6:__malloc_unlock	1

@@ -1,0 +1,16 @@
+portpin.h:52:5:Platform::BSP::Pin::operator uint16_t() const	1
+portpin.h:82:18:GPIO_TypeDef* Platform::BSP::Port::get() const	1
+digitalinout.h:31:14:const Platform::BSP::Port& Platform::BSP::DigitalBase::port() const	1
+digitalinout.h:32:13:const Platform::BSP::Pin& Platform::BSP::DigitalBase::pin() const	1
+digitalinout.cpp:10:6:void Platform::BSP::DigitalOut::set() const	1
+digitalinout.cpp:16:6:void Platform::BSP::DigitalOut::clear() const	1
+digitalinout.cpp:22:6:bool Platform::BSP::DigitalIn::get() const	1
+digitalinout.cpp:30:6:bool Platform::BSP::DigitalInterrupt::onInterrupt(const InterruptHandler&, Platform::BSP::DigitalInterrupt::EdgeType) const	4
+digitalinout.cpp:39:6:bool Platform::BSP::DigitalInterrupt::enableInterrupt(Platform::BSP::DigitalInterrupt::EdgeType) const	1
+digitalinout.cpp:45:6:bool Platform::BSP::DigitalInterrupt::disableInterrupt() const	1
+digitalinout.cpp:51:6:bool Platform::BSP::DigitalInterrupt::clearPendingInterrupt() const	1
+interrupt.h:44:13:Platform::BSP::InterruptManager::~InterruptManager()	1
+interrupt.h:44:13:virtual Platform::BSP::InterruptManager::~InterruptManager()	1
+digitalinout.cpp:58:1:void __static_initialization_and_destruction_0(int, int)	5
+digitalinout.cpp:58:1:cpp)	1
+digitalinout.cpp:58:1:cpp)	1

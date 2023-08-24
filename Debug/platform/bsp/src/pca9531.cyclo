@@ -1,0 +1,17 @@
+digitalinout.h:27:11:Platform::BSP::DigitalBase::DigitalBase(const PortPin&)	1
+digitalinout.h:44:11:Platform::BSP::DigitalOut::DigitalOut(const PortPin&)	1
+pca9531.h:116:10:void Platform::BSP::PCA9531::enable()	1
+pca9531.h:150:13:void Platform::BSP::PCA9531::setStatus(uint16_t) const	1
+i2cdevice.h:48:13:Platform::BSP::I2CDevice::~I2CDevice()	1
+i2cdevice.h:48:13:virtual Platform::BSP::I2CDevice::~I2CDevice()	1
+pca9531.cpp:6:1:Platform::BSP::PCA9531::PCA9531(Platform::BSP::PortPin, I2C_HandleTypeDef*, uint8_t)	1
+pca9531.cpp:11:6:void Platform::BSP::PCA9531::select(uint16_t, Platform::BSP::PCA9531::Mode) const	4
+pca9531.cpp:27:10:uint16_t Platform::BSP::PCA9531::getStatus() const	2
+pca9531.cpp:36:19:Platform::BSP::PCA9531::LedState Platform::BSP::PCA9531::getLedStatus(Platform::BSP::PCA9531::Identifier) const	2
+pca9531.cpp:47:6:void Platform::BSP::PCA9531::shiftleft(uint32_t) const	1
+pca9531.cpp:52:6:void Platform::BSP::PCA9531::shiftright(uint32_t) const	1
+pca9531.cpp:57:6:void Platform::BSP::PCA9531::rotateleft(uint32_t) const	1
+pca9531.cpp:63:6:void Platform::BSP::PCA9531::rotateright(uint32_t) const	1
+i2cdevice.h:138:31:bool Platform::BSP::I2CDevice::cmd(T, uint16_t) const [with T = Platform::BSP::PCA9531::Register]	1
+pca9531.h:18:7:Platform::BSP::PCA9531::~PCA9531()	1
+pca9531.h:18:7:virtual Platform::BSP::PCA9531::~PCA9531()	1

@@ -1,0 +1,15 @@
+PostOffice.h:172:20:static uint32_t RTOS::PostOffice::getMaxSystemMailNumber()	1
+TaskBase.h:61:16:void* RTOS::Task::getTaskHandle() const	1
+TaskBase.h:67:18:const char* RTOS::Task::getTaskName() const	1
+TaskBase.h:97:10:bool RTOS::Task::isSchedulable() const	1
+TaskBase.cpp:26:13:void taskFnc(void*)	5
+TaskBase.cpp:58:1:RTOS::Task::Task(const char*, uint16_t, osPriority, bool)	3
+TaskBase.cpp:92:1:RTOS::Task::~Task()	1
+TaskBase.cpp:92:1:virtual RTOS::Task::~Task()	1
+TaskBase.cpp:100:6:bool RTOS::Task::finalizeInit()	3
+TaskBase.cpp:116:12:void* RTOS::Task::createTask()	4
+TaskBase.cpp:150:12:void* RTOS::Task::deleteTask()	2
+TaskBase.cpp:173:14:os_messageQ_cb* RTOS::Task::createMessageBox(const osMessageQDef_t*) const	1
+TaskBase.cpp:182:7:bool RTOS::Task::sendMessage(osThreadId, void*) const	1
+TaskBase.cpp:189:11:os_mailQ_cb* RTOS::Task::createMailBox(const osMailQDef_t*) const	4
+TaskBase.cpp:210:6:bool RTOS::Task::sendMail(osThreadId, void*, RTOS::mailNumber_e, RTOS::PostOffice::mailType_e) const	1

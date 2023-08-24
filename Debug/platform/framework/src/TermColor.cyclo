@@ -1,0 +1,10 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+TermColor.h:153:10:void Platform::BSP::TermColor::setCol(Platform::BSP::TermColor::Color) const	1
+TermColor.h:502:26:void __tcf_0()	1
+TermColor.h:500:24:static Platform::BSP::TermColor& Platform::BSP::TermColor::getInstance()	3
+TermColor.h:547:5:Platform::BSP::TermColor::TermColor()	1
+TermColor.h:549:5:Platform::BSP::TermColor::~TermColor()	1
+TermColor.h:551:10:void Platform::BSP::TermColor::setFlags() const	4
+TermColor.cpp:24:18:const Platform::BSP::TermColor& Platform::BSP::TermColor::operator<<(Platform::BSP::Manipulators) const	9
+TermColor.cpp:62:1:void __static_initialization_and_destruction_0(int, int)	3
+TermColor.cpp:62:1:cpp)	1

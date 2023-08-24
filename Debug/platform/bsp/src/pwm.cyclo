@@ -1,0 +1,15 @@
+pwm.cpp:21:1:Platform::BSP::PWM::PWM(TIM_HandleTypeDef*, Platform::BSP::PWM::PWM_CHANNEL, uint8_t, uint8_t)	9
+pwm.cpp:82:1:Platform::BSP::PWM::~PWM()	1
+pwm.cpp:86:6:void Platform::BSP::PWM::Chip_PWM_Init()	1
+pwm.cpp:90:6:void Platform::BSP::PWM::Chip_PWM_Reset()	1
+pwm.cpp:95:6:void Platform::BSP::PWM::Chip_PWM_Disable()	1
+pwm.cpp:99:6:void Platform::BSP::PWM::Chip_PWM_Enable()	1
+pwm.cpp:104:6:void Platform::BSP::PWM::outputEnable()	2
+pwm.cpp:110:6:void Platform::BSP::PWM::outputDisable()	1
+pwm.cpp:115:6:void Platform::BSP::PWM::Chip_PWM_SetPrescale(uint32_t)	1
+pwm.cpp:122:10:uint32_t Platform::BSP::PWM::Chip_PWM_GetPrescale() const	1
+pwm.cpp:126:6:void Platform::BSP::PWM::setFrequency(uint32_t, bool)	4
+pwm.cpp:154:10:uint32_t Platform::BSP::PWM::getFrequency() const	1
+pwm.cpp:164:6:void Platform::BSP::PWM::setPulsWidthPercent(uint32_t)	3
+pwm.cpp:172:6:void Platform::BSP::PWM::setPulsWidth(uint32_t)	3
+pwm.cpp:183:10:uint32_t Platform::BSP::PWM::getPulsWidth() const	1

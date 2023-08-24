@@ -1,0 +1,4 @@
+Semaphore.cpp:13:1:RTOS::Semaphore::Semaphore(const osSemaphoreDef_t*, uint32_t)	1
+Semaphore.cpp:23:1:RTOS::Semaphore::~Semaphore()	2
+Semaphore.cpp:32:6:bool RTOS::Semaphore::up()	3
+Semaphore.cpp:54:6:bool RTOS::Semaphore::down()	3

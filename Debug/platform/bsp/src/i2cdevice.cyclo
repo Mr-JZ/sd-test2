@@ -1,0 +1,13 @@
+i2cdevice.cpp:18:1:Platform::BSP::I2CDevice::I2CDevice(I2C_HandleTypeDef*, uint8_t, uint8_t)	1
+i2cdevice.cpp:21:6:bool Platform::BSP::I2CDevice::read(uint8_t*, uint32_t&) const	4
+i2cdevice.cpp:42:6:bool Platform::BSP::I2CDevice::write(uint8_t*, uint32_t&) const	5
+i2cdevice.cpp:72:6:bool Platform::BSP::I2CDevice::set(uint8_t, uint8_t) const	2
+i2cdevice.cpp:83:6:bool Platform::BSP::I2CDevice::set(uint8_t, uint16_t) const	2
+i2cdevice.cpp:95:6:bool Platform::BSP::I2CDevice::set(uint8_t, uint32_t) const	2
+i2cdevice.cpp:109:6:bool Platform::BSP::I2CDevice::get(uint8_t, uint8_t&) const	4
+i2cdevice.cpp:117:6:bool Platform::BSP::I2CDevice::get(uint8_t, uint16_t&) const	4
+i2cdevice.cpp:125:6:bool Platform::BSP::I2CDevice::get(uint8_t, uint32_t&) const	4
+i2cdevice.cpp:133:6:bool Platform::BSP::I2CDevice::assignLockFct(Platform::BSP::LockFctType, Platform::BSP::LockFctType)	1
+i2cdevice.cpp:140:6:bool Platform::BSP::I2CDevice::transfer(uint8_t*, uint32_t&, uint8_t*, uint32_t&) const	4
+i2cdevice.h:48:13:Platform::BSP::I2CDevice::~I2CDevice()	1
+i2cdevice.h:48:13:virtual Platform::BSP::I2CDevice::~I2CDevice()	1

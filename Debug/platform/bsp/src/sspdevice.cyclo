@@ -1,0 +1,17 @@
+portpin.h:46:14:Platform::BSP::Pin::Pin(Platform::BSP::Pin::BitMask)	1
+portpin.h:89:8:Platform::BSP::Port::Port(Platform::BSP::Port::Select)	9
+digitalinout.h:27:11:Platform::BSP::DigitalBase::DigitalBase(const PortPin&)	1
+digitalinout.h:44:11:Platform::BSP::DigitalOut::DigitalOut(const PortPin&)	1
+sspdevice.cpp:28:1:Platform::BSP::SSPDevice::SSPDevice(SPI_HandleTypeDef*, Platform::BSP::PortPin)	1
+sspdevice.cpp:31:1:Platform::BSP::SSPDevice::SSPDevice(SPI_HandleTypeDef*, uint8_t, uint8_t)	1
+sspdevice.cpp:37:6:bool Platform::BSP::SSPDevice::read(uint8_t*, uint32_t&) const	2
+sspdevice.cpp:62:6:bool Platform::BSP::SSPDevice::write(uint8_t*, uint32_t&) const	2
+sspdevice.cpp:85:6:bool Platform::BSP::SSPDevice::write(uint8_t) const	1
+sspdevice.cpp:90:6:bool Platform::BSP::SSPDevice::assignLockFct(Platform::BSP::LockFctType, Platform::BSP::LockFctType)	1
+sspdevice.cpp:97:6:void Platform::BSP::SSPDevice::acquire() const	2
+sspdevice.cpp:103:6:void Platform::BSP::SSPDevice::release() const	2
+stl_pair.h:361:21:constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&) [with _U1 = Platform::BSP::Port::Select; _U2 = Platform::BSP::Pin::BitMask; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && (! std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>())), bool>::type <anonymous> = false; _T1 = Platform::BSP::Port; _T2 = Platform::BSP::Pin]	1
+move.h:76:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = Platform::BSP::Port::Select]	1
+move.h:76:5:constexpr _Tp&& std::forward(typename std::remove_reference<_Tp>::type&) [with _Tp = Platform::BSP::Pin::BitMask]	1
+sspdevice.h:64:13:Platform::BSP::SSPDevice::~SSPDevice()	1
+sspdevice.h:64:13:virtual Platform::BSP::SSPDevice::~SSPDevice()	1

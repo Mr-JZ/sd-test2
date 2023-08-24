@@ -1,0 +1,10 @@
+i2cdevice.h:48:13:Platform::BSP::I2CDevice::~I2CDevice()	1
+i2cdevice.h:48:13:virtual Platform::BSP::I2CDevice::~I2CDevice()	1
+LTR303ALS01.cpp:18:1:Platform::BSP::LTR303ALS01::LTR303ALS01(I2C_HandleTypeDef*, uint8_t)	1
+LTR303ALS01.cpp:20:6:bool Platform::BSP::LTR303ALS01::enable(Platform::BSP::LTR303ALS01::Gain)	1
+LTR303ALS01.cpp:35:6:bool Platform::BSP::LTR303ALS01::disable()	1
+LTR303ALS01.cpp:46:6:bool Platform::BSP::LTR303ALS01::raw(Platform::BSP::LTR303ALS01::Channel, uint16_t&) const	3
+LTR303ALS01.cpp:65:6:bool Platform::BSP::LTR303ALS01::raw(uint32_t&) const	1
+i2cdevice.h:128:31:bool Platform::BSP::I2CDevice::cmd(T, uint8_t) const [with T = Platform::BSP::LTR303ALS01::Register]	1
+LTR303ALS01.h:21:7:Platform::BSP::LTR303ALS01::~LTR303ALS01()	1
+LTR303ALS01.h:21:7:virtual Platform::BSP::LTR303ALS01::~LTR303ALS01()	1

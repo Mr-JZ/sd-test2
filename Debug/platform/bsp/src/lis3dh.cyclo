@@ -1,0 +1,18 @@
+sspdevice.h:64:13:Platform::BSP::SSPDevice::~SSPDevice()	1
+sspdevice.h:64:13:virtual Platform::BSP::SSPDevice::~SSPDevice()	1
+lis3dh.cpp:17:1:Platform::BSP::LIS3DHTEMPLATE<U>::LIS3DHTEMPLATE(SPI_HandleTypeDef*, Platform::BSP::PortPin) [with U = Platform::BSP::SSPDevice]	1
+lis3dh.cpp:21:6:bool Platform::BSP::LIS3DHTEMPLATE<U>::raw(int16_t&, int16_t&, int16_t&) const [with U = Platform::BSP::SSPDevice]	3
+i2cdevice.h:48:13:Platform::BSP::I2CDevice::~I2CDevice()	1
+i2cdevice.h:48:13:virtual Platform::BSP::I2CDevice::~I2CDevice()	1
+lis3dh.cpp:54:1:Platform::BSP::LIS3DHTEMPLATE<U>::LIS3DHTEMPLATE(I2C_HandleTypeDef*, uint8_t) [with U = Platform::BSP::I2CDevice]	3
+lis3dh.cpp:80:6:bool Platform::BSP::LIS3DHTEMPLATE<U>::raw(int16_t&, int16_t&, int16_t&) const [with U = Platform::BSP::I2CDevice]	3
+lis3dh.h:378:9:uint8_t Platform::BSP::LIS3DHTEMPLATE<U>::status() const [with U = Platform::BSP::SSPDevice]	2
+lis3dh.h:501:6:void Platform::BSP::LIS3DHTEMPLATE<U>::fit(int16_t&) const [with U = Platform::BSP::SSPDevice]	7
+lis3dh.h:565:6:bool Platform::BSP::LIS3DHTEMPLATE<U>::ctrl(T, uint8_t&) const [with T = Platform::BSP::LIS3DHTEMPLATE<Platform::BSP::I2CDevice>::Register; U = Platform::BSP::I2CDevice]	3
+lis3dh.h:378:9:uint8_t Platform::BSP::LIS3DHTEMPLATE<U>::status() const [with U = Platform::BSP::I2CDevice]	2
+lis3dh.h:501:6:void Platform::BSP::LIS3DHTEMPLATE<U>::fit(int16_t&) const [with U = Platform::BSP::I2CDevice]	7
+lis3dh.h:524:6:bool Platform::BSP::LIS3DHTEMPLATE<U>::ctrl(T, uint8_t&) const [with T = Platform::BSP::LIS3DHTEMPLATE<Platform::BSP::SSPDevice>::Register; U = Platform::BSP::SSPDevice]	3
+lis3dh.h:165:5:Platform::BSP::LIS3DHTEMPLATE<U>::~LIS3DHTEMPLATE() [with U = Platform::BSP::I2CDevice]	1
+lis3dh.h:165:5:Platform::BSP::LIS3DHTEMPLATE<U>::~LIS3DHTEMPLATE() [with U = Platform::BSP::I2CDevice]	1
+lis3dh.h:165:5:Platform::BSP::LIS3DHTEMPLATE<U>::~LIS3DHTEMPLATE() [with U = Platform::BSP::SSPDevice]	1
+lis3dh.h:165:5:Platform::BSP::LIS3DHTEMPLATE<U>::~LIS3DHTEMPLATE() [with U = Platform::BSP::SSPDevice]	1

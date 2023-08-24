@@ -1,0 +1,13 @@
+mc24lc08.h:64:14:uint16_t Platform::BSP::MC24LC08::getblockaddress(uint16_t) const	1
+i2cdevice.h:48:13:Platform::BSP::I2CDevice::~I2CDevice()	1
+i2cdevice.h:48:13:virtual Platform::BSP::I2CDevice::~I2CDevice()	1
+eepromdriver.h:47:7:Platform::BSP::EepromDriver<Platform::BSP::MC24LC08, Platform::BSP::I2CDevice, __I2C_HandleTypeDef>::~EepromDriver()	1
+eepromdriver.h:47:7:virtual Platform::BSP::EepromDriver<Platform::BSP::MC24LC08, Platform::BSP::I2CDevice, __I2C_HandleTypeDef>::~EepromDriver()	1
+mc24lc08.cpp:28:4:Platform::BSP::MC24LC08::MC24LC08(I2C_HandleTypeDef*)	1
+mc24lc08.cpp:46:9:bool Platform::BSP::MC24LC08::pWriteData(uint16_t, uint16_t, const uint8_t*)	10
+mc24lc08.cpp:98:9:bool Platform::BSP::MC24LC08::pReadData(uint16_t, uint16_t, uint8_t*)	6
+eepromdriver.h:103:5:Platform::BSP::EepromDriver<T, U, V>::EepromDriver(V*, uint8_t, uint8_t, std::size_t, std::size_t, std::size_t) [with T = Platform::BSP::MC24LC08; U = Platform::BSP::I2CDevice; V = __I2C_HandleTypeDef]	1
+eepromdriver.h:88:27:constexpr std::size_t Platform::BSP::EepromDriver<T, U, V>::getPageSize() const [with T = Platform::BSP::MC24LC08; U = Platform::BSP::I2CDevice; V = __I2C_HandleTypeDef]	1
+eepromdriver.h:78:27:constexpr std::size_t Platform::BSP::EepromDriver<T, U, V>::getSize() const [with T = Platform::BSP::MC24LC08; U = Platform::BSP::I2CDevice; V = __I2C_HandleTypeDef]	1
+mc24lc08.h:29:7:Platform::BSP::MC24LC08::~MC24LC08()	1
+mc24lc08.h:29:7:virtual Platform::BSP::MC24LC08::~MC24LC08()	1

@@ -1,0 +1,2 @@
+../platform/os/src/portable/GCC/ARM_CM4F/runTimeStats.c:36:6:vConfigureTimerForRunTimeStats	8	static
+../platform/os/src/portable/GCC/ARM_CM4F/runTimeStats.c:52:10:vGetRuntimeCounter	4	static
